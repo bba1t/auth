@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.34.2
 // 	protoc        v5.28.2
-// source: user.proto
+// source: userAuth.proto
 
 package user_v1
 
@@ -35,12 +35,12 @@ const (
 var (
 	Role_name = map[int32]string{
 		0: "Unrecognized",
-		1: "user",
+		1: "userAuth",
 		2: "admin",
 	}
 	Role_value = map[string]int32{
 		"Unrecognized": 0,
-		"user":         1,
+		"userAuth":         1,
 		"admin":        2,
 	}
 )

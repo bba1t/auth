@@ -3,6 +3,7 @@ module github.com/bba1t/auth
 go 1.23.0
 
 require (
+	github.com/brianvoe/gofakeit v3.18.0+incompatible // indirect
 	github.com/golang/protobuf v1.5.4 // indirect
 	golang.org/x/net v0.28.0 // indirect
 	golang.org/x/sys v0.24.0 // indirect
