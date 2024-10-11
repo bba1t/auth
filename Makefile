@@ -19,6 +19,7 @@ get-deps:
 	go get google.golang.org/grpc/status
 	go get google.golang.org/grpc
 	go get google.golang.org/grpc/codes
+	go get github.com/brianvoe/gofakeit
 
 generate:
 	make generate-user-api
